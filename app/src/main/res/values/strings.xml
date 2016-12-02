@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DSTTR</string>
+    <string name="drawer_home">Home</string>
+    <string name="drawer_facebook">Facebook</string>
+    <string name="drawer_share">Share</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="drawer_reload">Reload</string>
+</resources>

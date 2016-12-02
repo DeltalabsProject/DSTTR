@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checkable="true"
+            android:checked="true"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/drawer_home" />
+        <item
+            android:id="@+id/nav_fb"
+            android:icon="@drawable/ic_fb"
+            android:title="@string/drawer_facebook" />
+        <item
+            android:id="@+id/nav_reload"
+            android:icon="@drawable/ic_reload"
+            android:title="@string/drawer_reload" />
+    </group>
+
+    <group
+        android:id="@+id/bottomGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:checkable="false"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:checkable="false"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit" />
+
+    </group>
+
+</menu>
